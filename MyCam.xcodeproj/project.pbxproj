@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8C8A73F2C331AF000F72599 /* MyCamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8A73E2C331AF000F72599 /* MyCamApp.swift */; };
+		F8C8A7412C331AF000F72599 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8A7402C331AF000F72599 /* ContentView.swift */; };
+		F8C8A7432C331AF300F72599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C8A7422C331AF300F72599 /* Assets.xcassets */; };
+		F8C8A7462C331AF300F72599 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C8A7452C331AF300F72599 /* Preview Assets.xcassets */; };
+		F8C8A7502C331AF300F72599 /* MyCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8A74F2C331AF300F72599 /* MyCamTests.swift */; };
+		F8C8A75A2C331AF300F72599 /* MyCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8A7592C331AF300F72599 /* MyCamUITests.swift */; };
+		F8C8A75C2C331AF300F72599 /* MyCamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8A75B2C331AF300F72599 /* MyCamUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8C8A74C2C331AF300F72599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8C8A7332C331AF000F72599 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C8A73A2C331AF000F72599;
+			remoteInfo = MyCam;
+		};
+		F8C8A7562C331AF300F72599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8C8A7332C331AF000F72599 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C8A73A2C331AF000F72599;
+			remoteInfo = MyCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8C8A73B2C331AF000F72599 /* MyCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C8A73E2C331AF000F72599 /* MyCamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCamApp.swift; sourceTree = "<group>"; };
+		F8C8A7402C331AF000F72599 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8C8A7422C331AF300F72599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8C8A7452C331AF300F72599 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8C8A74B2C331AF300F72599 /* MyCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C8A74F2C331AF300F72599 /* MyCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCamTests.swift; sourceTree = "<group>"; };
+		F8C8A7552C331AF300F72599 /* MyCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C8A7592C331AF300F72599 /* MyCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCamUITests.swift; sourceTree = "<group>"; };
+		F8C8A75B2C331AF300F72599 /* MyCamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8C8A7382C331AF000F72599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C8A7482C331AF300F72599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C8A7522C331AF300F72599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8C8A7322C331AF000F72599 = {
+			isa = PBXGroup;
+			children = (
+				F8C8A73D2C331AF000F72599 /* MyCam */,
+				F8C8A74E2C331AF300F72599 /* MyCamTests */,
+				F8C8A7582C331AF300F72599 /* MyCamUITests */,
+				F8C8A73C2C331AF000F72599 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8C8A73C2C331AF000F72599 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8C8A73B2C331AF000F72599 /* MyCam.app */,
+				F8C8A74B2C331AF300F72599 /* MyCamTests.xctest */,
+				F8C8A7552C331AF300F72599 /* MyCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8C8A73D2C331AF000F72599 /* MyCam */ = {
+			isa = PBXGroup;
+			children = (
+				F8C8A73E2C331AF000F72599 /* MyCamApp.swift */,
+				F8C8A7402C331AF000F72599 /* ContentView.swift */,
+				F8C8A7422C331AF300F72599 /* Assets.xcassets */,
+				F8C8A7442C331AF300F72599 /* Preview Content */,
+			);
+			path = MyCam;
+			sourceTree = "<group>";
+		};
+		F8C8A7442C331AF300F72599 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F8C8A7452C331AF300F72599 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8C8A74E2C331AF300F72599 /* MyCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8C8A74F2C331AF300F72599 /* MyCamTests.swift */,
+			);
+			path = MyCamTests;
+			sourceTree = "<group>";
+		};
+		F8C8A7582C331AF300F72599 /* MyCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8C8A7592C331AF300F72599 /* MyCamUITests.swift */,
+				F8C8A75B2C331AF300F72599 /* MyCamUITestsLaunchTests.swift */,
+			);
+			path = MyCamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8C8A73A2C331AF000F72599 /* MyCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C8A75F2C331AF300F72599 /* Build configuration list for PBXNativeTarget "MyCam" */;
+			buildPhases = (
+				F8C8A7372C331AF000F72599 /* Sources */,
+				F8C8A7382C331AF000F72599 /* Frameworks */,
+				F8C8A7392C331AF000F72599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCam;
+			productName = MyCam;
+			productReference = F8C8A73B2C331AF000F72599 /* MyCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8C8A74A2C331AF300F72599 /* MyCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C8A7622C331AF300F72599 /* Build configuration list for PBXNativeTarget "MyCamTests" */;
+			buildPhases = (
+				F8C8A7472C331AF300F72599 /* Sources */,
+				F8C8A7482C331AF300F72599 /* Frameworks */,
+				F8C8A7492C331AF300F72599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8C8A74D2C331AF300F72599 /* PBXTargetDependency */,
+			);
+			name = MyCamTests;
+			productName = MyCamTests;
+			productReference = F8C8A74B2C331AF300F72599 /* MyCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8C8A7542C331AF300F72599 /* MyCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C8A7652C331AF300F72599 /* Build configuration list for PBXNativeTarget "MyCamUITests" */;
+			buildPhases = (
+				F8C8A7512C331AF300F72599 /* Sources */,
+				F8C8A7522C331AF300F72599 /* Frameworks */,
+				F8C8A7532C331AF300F72599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8C8A7572C331AF300F72599 /* PBXTargetDependency */,
+			);
+			name = MyCamUITests;
+			productName = MyCamUITests;
+			productReference = F8C8A7552C331AF300F72599 /* MyCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8C8A7332C331AF000F72599 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F8C8A73A2C331AF000F72599 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F8C8A74A2C331AF300F72599 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F8C8A73A2C331AF000F72599;
+					};
+					F8C8A7542C331AF300F72599 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F8C8A73A2C331AF000F72599;
+					};
+				};
+			};
+			buildConfigurationList = F8C8A7362C331AF000F72599 /* Build configuration list for PBXProject "MyCam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8C8A7322C331AF000F72599;
+			productRefGroup = F8C8A73C2C331AF000F72599 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8C8A73A2C331AF000F72599 /* MyCam */,
+				F8C8A74A2C331AF300F72599 /* MyCamTests */,
+				F8C8A7542C331AF300F72599 /* MyCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8C8A7392C331AF000F72599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C8A7462C331AF300F72599 /* Preview Assets.xcassets in Resources */,
+				F8C8A7432C331AF300F72599 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C8A7492C331AF300F72599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C8A7532C331AF300F72599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8C8A7372C331AF000F72599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C8A7412C331AF000F72599 /* ContentView.swift in Sources */,
+				F8C8A73F2C331AF000F72599 /* MyCamApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C8A7472C331AF300F72599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C8A7502C331AF300F72599 /* MyCamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C8A7512C331AF300F72599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C8A75C2C331AF300F72599 /* MyCamUITestsLaunchTests.swift in Sources */,
+				F8C8A75A2C331AF300F72599 /* MyCamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8C8A74D2C331AF300F72599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8C8A73A2C331AF000F72599 /* MyCam */;
+			targetProxy = F8C8A74C2C331AF300F72599 /* PBXContainerItemProxy */;
+		};
+		F8C8A7572C331AF300F72599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8C8A73A2C331AF000F72599 /* MyCam */;
+			targetProxy = F8C8A7562C331AF300F72599 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8C8A75D2C331AF300F72599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8C8A75E2C331AF300F72599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8C8A7602C331AF300F72599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyCam/Preview Content\"";
+				DEVELOPMENT_TEAM = G5MF3TUGMQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kim.MyCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8C8A7612C331AF300F72599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyCam/Preview Content\"";
+				DEVELOPMENT_TEAM = G5MF3TUGMQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kim.MyCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8C8A7632C331AF300F72599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5MF3TUGMQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kim.MyCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyCam";
+			};
+			name = Debug;
+		};
+		F8C8A7642C331AF300F72599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5MF3TUGMQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kim.MyCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyCam";
+			};
+			name = Release;
+		};
+		F8C8A7662C331AF300F72599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5MF3TUGMQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kim.MyCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyCam;
+			};
+			name = Debug;
+		};
+		F8C8A7672C331AF300F72599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5MF3TUGMQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kim.MyCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyCam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8C8A7362C331AF000F72599 /* Build configuration list for PBXProject "MyCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C8A75D2C331AF300F72599 /* Debug */,
+				F8C8A75E2C331AF300F72599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C8A75F2C331AF300F72599 /* Build configuration list for PBXNativeTarget "MyCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C8A7602C331AF300F72599 /* Debug */,
+				F8C8A7612C331AF300F72599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C8A7622C331AF300F72599 /* Build configuration list for PBXNativeTarget "MyCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C8A7632C331AF300F72599 /* Debug */,
+				F8C8A7642C331AF300F72599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C8A7652C331AF300F72599 /* Build configuration list for PBXNativeTarget "MyCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C8A7662C331AF300F72599 /* Debug */,
+				F8C8A7672C331AF300F72599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8C8A7332C331AF000F72599 /* Project object */;
+}
