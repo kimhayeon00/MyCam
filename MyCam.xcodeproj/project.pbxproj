@@ -14,6 +14,7 @@
 		F8C8A7502C331AF300F72599 /* MyCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8A74F2C331AF300F72599 /* MyCamTests.swift */; };
 		F8C8A75A2C331AF300F72599 /* MyCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8A7592C331AF300F72599 /* MyCamUITests.swift */; };
 		F8C8A75C2C331AF300F72599 /* MyCamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8A75B2C331AF300F72599 /* MyCamUITestsLaunchTests.swift */; };
+		F8C8A76C2C3321C100F72599 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8A76B2C3321C100F72599 /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		F8C8A7552C331AF300F72599 /* MyCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C8A7592C331AF300F72599 /* MyCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCamUITests.swift; sourceTree = "<group>"; };
 		F8C8A75B2C331AF300F72599 /* MyCamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8C8A7682C331BB600F72599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F8C8A76B2C3321C100F72599 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +97,12 @@
 		F8C8A73D2C331AF000F72599 /* MyCam */ = {
 			isa = PBXGroup;
 			children = (
+				F8C8A7682C331BB600F72599 /* Info.plist */,
+				F8C8A7422C331AF300F72599 /* Assets.xcassets */,
 				F8C8A73E2C331AF000F72599 /* MyCamApp.swift */,
 				F8C8A7402C331AF000F72599 /* ContentView.swift */,
-				F8C8A7422C331AF300F72599 /* Assets.xcassets */,
 				F8C8A7442C331AF300F72599 /* Preview Content */,
+				F8C8A76B2C3321C100F72599 /* CameraView.swift */,
 			);
 			path = MyCam;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8C8A76C2C3321C100F72599 /* CameraView.swift in Sources */,
 				F8C8A7412C331AF000F72599 /* ContentView.swift in Sources */,
 				F8C8A73F2C331AF000F72599 /* MyCamApp.swift in Sources */,
 			);
@@ -422,9 +428,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyCam/Preview Content\"";
-				DEVELOPMENT_TEAM = G5MF3TUGMQ;
+				DEVELOPMENT_TEAM = VKZN9VC7DB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyCam/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,9 +458,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyCam/Preview Content\"";
-				DEVELOPMENT_TEAM = G5MF3TUGMQ;
+				DEVELOPMENT_TEAM = VKZN9VC7DB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyCam/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
