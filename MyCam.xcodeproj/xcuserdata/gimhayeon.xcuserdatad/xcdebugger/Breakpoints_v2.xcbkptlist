@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F0DBDBD4-3076-4A71-BE93-CC9615A4B29B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA98E81D-6CC6-401F-83D0-E1F390AF77B5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyCam/CameraView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "takePhoto()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BA98E81D-6CC6-401F-83D0-E1F390AF77B5 - 85c2f9865c703534"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyCam.CameraView.Coordinator.takePhoto() -&gt; ()"
+                  moduleName = "MyCam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gimhayeon/iOS%20App/MyCam/MyCam/MyCam/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "BA98E81D-6CC6-401F-83D0-E1F390AF77B5 - 85c2f9865c703534"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyCam.CameraView.Coordinator.takePhoto() -&gt; ()"
+                  moduleName = "MyCam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gimhayeon/iOS%20App/MyCam/MyCam/MyCam/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "480">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
