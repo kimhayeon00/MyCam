@@ -146,7 +146,6 @@ class CameraService: NSObject, ObservableObject, AVCapturePhotoCaptureDelegate, 
         let highlightShadowFilter = CIFilter(name: "CIHighlightShadowAdjust")
         highlightShadowFilter?.setValue(ciImage, forKey: kCIInputImageKey)
 
-        // 그림자 값 조정
         let shadowIntensity = intensity / 100
 
         if shadowIntensity != 0 {
