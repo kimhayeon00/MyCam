@@ -3,6 +3,7 @@
    uuid = "F0DBDBD4-3076-4A71-BE93-CC9615A4B29B"
    type = "1"
    version = "2.0">
+
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
