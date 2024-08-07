@@ -30,14 +30,28 @@ struct CameraView: View {
             }
             ControlView(cameraService: cameraService)
                 .padding(.bottom, 10)
-            Button(action: {
-                cameraService.takePhoto()
-            }) {
-                Circle()
-                    .stroke(Color.black)
-                    .frame(width: 70, height: 70)
+            ZStack{
+                Button(action: {
+                    cameraService.takePhoto()
+                }) {
+                    Circle()
+                        .stroke(Color.black)
+                        .frame(width: 70, height: 70)
+                }
+                .padding(.top, 10) 
+                HStack{
+                    Spacer()
+                    Button(action: {}, label: {
+                        Image(systemName: "arrow.counterclockwise")
+                            .foregroundColor(.black)
+                            .font(.system(size: 20))
+                            .padding()
+                    })
+                    .onLongPressGesture(minimumDuration: 0.1, pressing: { isPressing in
+                        cameraService.showOriginal = isPressing
+                    }, perform: {})
+                }
             }
-            .padding(.top, 10) // 촬영 버튼 여백 추가
         }
         .overlay(
             VStack {

@@ -12,33 +12,80 @@ class CameraService: NSObject, ObservableObject, AVCapturePhotoCaptureDelegate, 
     private var ciContext = CIContext()
     private var currentCIImage: CIImage?
     
-    @Published var exposureValue: Double = 0.0 {
+    // UserDefaults를 사용하여 값 초기화
+    @Published var exposureValue: Double {
+        didSet {
+             applyFilter()
+             UserDefaults.standard.exposureValue = exposureValue
+        }
+    }
+    
+    @Published var brillianceValue: Double {
+        didSet {
+             applyFilter()
+             UserDefaults.standard.brillianceValue = brillianceValue
+        }
+    }
+    
+    @Published var highlightValue: Double {
+        didSet {
+             applyFilter()
+             UserDefaults.standard.highlightValue = highlightValue
+        }
+    }
+    
+    @Published var shadowValue: Double {
+        didSet {
+             applyFilter()
+             UserDefaults.standard.shadowValue = shadowValue
+        }
+    }
+    
+    @Published var contrastValue: Double {
+        didSet {
+             applyFilter()
+             UserDefaults.standard.contrastValue = contrastValue
+        }
+    }
+    
+    @Published var brightnessValue: Double {
+        didSet {
+             applyFilter()
+             UserDefaults.standard.brightnessValue = brightnessValue
+        }
+    }
+    
+    @Published var vibranceValue: Double {
+        didSet {
+             applyFilter()
+             UserDefaults.standard.vibranceValue = vibranceValue
+        }
+    }
+    
+    @Published var warmthValue: Double {
+        didSet {
+             applyFilter()
+             UserDefaults.standard.warmthValue = warmthValue
+        }
+    }
+    
+    @Published var showOriginal: Bool = false {
         didSet { applyFilter() }
     }
-    @Published var brillianceValue: Double = 0.0 {
-        didSet { applyFilter() }
-    }
-    @Published var highlightValue: Double = 0.0 {
-        didSet { applyFilter() }
-    }
-    @Published var shadowValue: Double = 0.0 {
-        didSet { applyFilter() }
-    }
-    @Published var contrastValue: Double = 0.0 {
-        didSet { applyFilter() }
-    }
-    @Published var brightnessValue: Double = 0.0 {
-       didSet { applyFilter() }
-    }
-    @Published var vibranceValue: Double = 0.0 {
-       didSet { applyFilter() }
-    }
-    @Published var warmthValue: Double = 0.0 {
-       didSet { applyFilter() }
-    }
+    
     private var isTakingPhoto = false
 
     override init() {
+        // 필터 값 UserDefaults에서 로드
+        self.exposureValue = UserDefaults.standard.exposureValue
+        self.brillianceValue = UserDefaults.standard.brillianceValue
+        self.highlightValue = UserDefaults.standard.highlightValue
+        self.shadowValue = UserDefaults.standard.shadowValue
+        self.contrastValue = UserDefaults.standard.contrastValue
+        self.brightnessValue = UserDefaults.standard.brightnessValue
+        self.vibranceValue = UserDefaults.standard.vibranceValue
+        self.warmthValue = UserDefaults.standard.warmthValue
+        
         super.init()
         setupSession()
     }
@@ -216,6 +263,9 @@ class CameraService: NSObject, ObservableObject, AVCapturePhotoCaptureDelegate, 
 
     
     func filterImage(_ ciImage: CIImage) -> CIImage {
+        if showOriginal {
+                    return ciImage
+                }
         var filteredImage = ciImage
 
         if exposureValue != 0 {
@@ -345,5 +395,58 @@ extension UIImage {
         self.draw(in: CGRect(x: -self.size.width / 2, y: -self.size.height / 2, width: self.size.width, height: self.size.height))
 
         return UIGraphicsGetImageFromCurrentImageContext()
+    }
+}
+
+extension UserDefaults {
+    private enum Keys {
+        static let exposureValue = "exposureValue"
+        static let brillianceValue = "brillianceValue"
+        static let highlightValue = "highlightValue"
+        static let shadowValue = "shadowValue"
+        static let contrastValue = "contrastValue"
+        static let brightnessValue = "brightnessValue"
+        static let vibranceValue = "vibranceValue"
+        static let warmthValue = "warmthValue"
+    }
+    
+    var exposureValue: Double {
+        get { return double(forKey: Keys.exposureValue) }
+        set { set(newValue, forKey: Keys.exposureValue) }
+    }
+
+    var brillianceValue: Double {
+        get { return double(forKey: Keys.brillianceValue) }
+        set { set(newValue, forKey: Keys.brillianceValue) }
+    }
+
+    var highlightValue: Double {
+        get { return double(forKey: Keys.highlightValue) }
+        set { set(newValue, forKey: Keys.highlightValue) }
+    }
+
+    var shadowValue: Double {
+        get { return double(forKey: Keys.shadowValue) }
+        set { set(newValue, forKey: Keys.shadowValue) }
+    }
+
+    var contrastValue: Double {
+        get { return double(forKey: Keys.contrastValue) }
+        set { set(newValue, forKey: Keys.contrastValue) }
+    }
+
+    var brightnessValue: Double {
+        get { return double(forKey: Keys.brightnessValue) }
+        set { set(newValue, forKey: Keys.brightnessValue) }
+    }
+
+    var vibranceValue: Double {
+        get { return double(forKey: Keys.vibranceValue) }
+        set { set(newValue, forKey: Keys.vibranceValue) }
+    }
+
+    var warmthValue: Double {
+        get { return double(forKey: Keys.warmthValue) }
+        set { set(newValue, forKey: Keys.warmthValue) }
     }
 }
